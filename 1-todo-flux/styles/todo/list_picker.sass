@@ -1,0 +1,27 @@
+@import "_placeholders.sass"
+
+.todo-list-picker
+
+  &__container
+    list-style: none
+    display: block
+    padding: 0
+    margin: 0
+    white-space: nowrap
+
+    &-new
+      @extend %list-picker-item
+      width: 300px
+
+      &-input
+        display: block
+        width: 100%
+        font-size: 1.0em
+        outline: none
+        border: 0
+        border-bottom: 1px black solid
+
+        &:focus
+          outline: none
+          border-bottom: 1px red solid !important
+

@@ -1,0 +1,9 @@
+@import "_placeholders.sass"
+
+.todo-list-item
+  &__text
+    @extend %list-picker-item
+    cursor: pointer
+
+    &--active
+      border-bottom: 2px red solid !important

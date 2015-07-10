@@ -1,0 +1,25 @@
+{
+  "name": "0-todo-noflux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "webpack-dev-server  --devtool eval --progress --colors"
+  },
+  "author": "Alex Barry <mrozbarry@pairshaped.ca> (http://mrbarry.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bemmer-node": "^0.1.2",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.3",
+    "css-loader": "^0.9.1",
+    "lodash": "^3.10.0",
+    "node-sass": "^3.1.2",
+    "node-uuid": "^1.4.3",
+    "react": "^0.13.3",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.10.1"
+  }
+}

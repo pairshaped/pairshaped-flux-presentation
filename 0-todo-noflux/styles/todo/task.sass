@@ -1,0 +1,29 @@
+
+.todo-task
+
+  &__item
+
+    &-text
+      font-size: 0.8em
+      width: 200px
+      outline: none
+      border: 0
+      cursor: pointer
+
+      &:focus
+        outline: none
+        border-bottom: 1px red solid
+        cursor: text
+
+      &--completed
+        text-decoration: line-through
+
+        &:focus
+          outline: none
+          border-bottom: 0 !important
+
+    &-summary
+      font-size: 0.6em
+      color: #9f9f9f
+      font-style: italic
+
